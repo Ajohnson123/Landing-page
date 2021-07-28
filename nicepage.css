@@ -34770,8 +34770,29 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 114px;
+  }
 
+  .u-header .u-image-1 {
+    width: 560px;
+    height: 72px;
+    margin: 21px -10px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 113px;
+  }
 
+  .u-header .u-image-1 {
+    width: 358px;
+    height: 45px;
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+}
 .u-footer {
   background-image: none;
 }
